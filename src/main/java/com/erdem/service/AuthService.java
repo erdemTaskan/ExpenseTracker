@@ -8,7 +8,7 @@ import com.erdem.model.User;
 import com.erdem.repository.IRefreshTokenRepository;
 import com.erdem.repository.IUserRepository;
 import com.erdem.security.JwtUtils;
-import exception.NotFoundException;
+import com.erdem.exception.NotFoundException;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

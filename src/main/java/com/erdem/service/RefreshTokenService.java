@@ -4,7 +4,7 @@ import com.erdem.model.RefreshToken;
 import com.erdem.model.User;
 import com.erdem.repository.IRefreshTokenRepository;
 import com.erdem.repository.IUserRepository;
-import exception.NotFoundException;
+import com.erdem.exception.NotFoundException;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 

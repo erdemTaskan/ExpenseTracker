@@ -1,4 +1,4 @@
-package exception;
+package com.erdem.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

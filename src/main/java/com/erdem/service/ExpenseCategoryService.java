@@ -3,8 +3,8 @@ package com.erdem.service;
 import com.erdem.dto.ExpenseCategoryResponse;
 import com.erdem.model.ExpenseCategory;
 import com.erdem.repository.IExpenseCategoryRepository;
-import exception.BadRequestException;
-import exception.NotFoundException;
+import com.erdem.exception.BadRequestException;
+import com.erdem.exception.NotFoundException;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 

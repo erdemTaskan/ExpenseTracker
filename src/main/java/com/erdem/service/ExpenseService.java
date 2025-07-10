@@ -7,7 +7,7 @@ import com.erdem.model.User;
 import com.erdem.repository.IExpenseCategoryRepository;
 import com.erdem.repository.IExpenseRepository;
 import com.erdem.repository.IUserRepository;
-import exception.NotFoundException;
+import com.erdem.exception.NotFoundException;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
